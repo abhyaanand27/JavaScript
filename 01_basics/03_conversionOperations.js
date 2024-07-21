@@ -28,5 +28,40 @@ let someNum = 33;
 
 let strnum = String(someNum)
 
-console.log(strnum);
-console.log(typeof strnum); // converted to string
+//console.log(strnum);
+//console.log(typeof strnum); // converted to string
+
+/********************* Operations ******************/
+//basics
+// console.log(2**2)
+// console.log(4/2) 
+// etc...
+
+
+let value = 3
+let negValue = -value
+// console.log(negValue);
+
+let str1 = "hello"
+let str2 = " Abhya"
+
+let str3 = str1 + str2;
+// console.log(str3);
+
+
+// console.log("1" + 2); // print 12
+// console.log(1 + "2"); // print 12
+// console.log("1" + 2 + 2); // print 122
+// console.log(1 + 2 + "2"); // print 32
+
+// console.log(true);
+// console.log(+true); // 1
+// console.log(true+); // error
+// console.log(+""); // 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2+2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
