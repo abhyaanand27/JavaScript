@@ -20,7 +20,7 @@ console.log(usable_anotherArr);
 
 console.log(Array.isArray("abhya"))
 console.log(Array.from("abhya"))
-console.log(Array.from({name:"abhya"})) //emoty array
+console.log(Array.from({name:"abhya"})) //empty array
 
 let score1 = 100
 let score2 = 200
